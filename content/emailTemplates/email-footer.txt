@@ -1,0 +1,26 @@
+<table border="0" cellspacing="0" cellpadding="0" width="580" align="center">
+<tr>
+<td><center><a href="{{CompanyUrl}}"><img src="{{LogoUrl}}" border="0"  width="180" height="90" alt="{{CompanyName}}"></a><br><br>
+
+
+
+
+<table><tr><td>
+Phone:<br>
+
+Email:
+</td><td>
+<b>{{CompanyPhone}}</b><br>
+
+<a href="mailto:{{CompanyEmail}}">{{CompanyEmail}}</a>
+</td></tr></table>
+<br><br>
+</center></td></tr>
+
+</table>
+</td></tr></table></span>
+</body></html>
+
+
+
+

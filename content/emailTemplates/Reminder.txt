@@ -1,0 +1,112 @@
+<!-- reminder.txt -->
+<table align="center" width="90%"><tr><td>
+<center>
+
+<div align="center" style="font-family:Verdana, Arial, Helvetica, sans-serif; font-style:italic; line-height:160%; font-size:18px; color:#CC0000;"><b>Remember {{YourName}},<br> Your Event Is Coming Up!</b></div>
+
+<br><br>
+{{SignatureList}}
+
+<span style='FONT-FAMILY: Arial;'>
+
+<table><tr><td>
+
+<b><center>On Line Waivers!</center></b><font color="red"><b>Remember, anyone under the age of 18 must have a parent or guardian sign the waiver.</b></font>
+<p>Save time and sign your waivers online.<br />Just click on this link:<br/>
+<a href="{{VantoraUrl}}/waiver/default.asp?ev={{EventId}}">Sign My Waivers</a>
+</p>
+
+
+
+</td><td>
+<a href="{{VantoraUrl}}/waiver/default.asp?ev={{EventId}}"><img src="http://www.vantora.com/images/waiveronline.jpg" border="0" align="right" hspace="10" vspace="20"></a>
+</td></tr>
+
+<tr><td colspan="2"><p>Share this link with the people you are inviting and they can do their waivers on line too!  Just copy and email them the following link:<br/>
+<a href="{{VantoraUrl}}/waiver/default.asp?ev={{EventId}}">{{VantoraUrl}}/waiver/default.asp?ev={{EventId}}</a>
+</p></td></tr>
+
+</table>
+
+<br>
+
+
+<br>
+
+
+
+
+Please review the following information, and contact us if any of it is not accurate:
+<br><br>
+
+<table cellpadding="2" cellspacing="3" border="0" style="margin: 0 auto;">
+            <tr>
+                <td>Name of Event</td>
+                <td>
+                    {{EventName}}
+                </td>
+                <td />
+            </tr>
+			
+			<tr>
+                <td>Date:</td>
+                <td>
+                    {{Date}}
+                </td>
+                <td/>
+            </tr>
+             
+            <tr>
+                <td>Starting Time:</td>
+                <td>
+                    {{StartTime}}
+                </td>
+                <td/>
+            </tr>
+            <tr>
+                <td>Approximate Number Of Guests:</td>
+                <td>
+                   {{NumberGuests}}
+                </td>
+                <td/>
+            </tr>
+            <tr>
+                <td>Average Age Of Guests:</td>
+                <td>
+                    {{AverageAge}}
+                </td>
+                <td/>
+            </tr>
+            
+            <tr>
+                <td>Contact Phone Number:</td>
+                <td>
+                   {{Phone}}
+                </td>
+            </tr>
+			{{CustomFields}}
+			<tr>
+				<td colspan="2">Comments:</td>
+			</tr>
+			<tr>
+				<td colspan="2">{{UserComments}}</td>
+			</tr>
+	</table>
+
+<br><font size=+1><b>Need To Make A Change??</b></font><br>
+You can modify this reservation at any time by following this link:<br>
+<a href="{{VantoraUrl}}/registration/editregistration.asp?id={{EventId}}">Modify My Reservation</a>
+<br>Then just log in with your email.
+
+<br><br>
+
+
+<br><br>
+
+</div> 
+
+
+</span>
+
+</center>
+</td></tr></table>

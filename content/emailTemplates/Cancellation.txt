@@ -1,0 +1,76 @@
+<!-- Cancellation.txt -->
+<table align="center" width="90%"><tr><td>
+<center>
+
+<div align="center" style="font-family:Verdana, Arial, Helvetica, sans-serif; font-style:italic; line-height:160%; font-size:18px; color:#CC0000;"><b>We've Cancelled Your Reservation</b></div>
+
+
+<span style='FONT-FAMILY: Arial'>
+Below you will see the event we are cancelling.
+<br><br>
+
+<table cellpadding="2" cellspacing="3" border="0" style="margin: 0 auto;">
+            <tr>
+                <td>Name of Event</td>
+                <td>
+                    {{EventName}}
+                </td>
+                <td />
+            </tr>
+			
+			<tr>
+                <td>Date:</td>
+                <td>
+                    {{Date}}
+                </td>
+                <td/>
+            </tr>
+             
+            <tr>
+                <td>Starting Time:</td>
+                <td>
+                    {{StartTime}}
+                </td>
+                <td/>
+            </tr>
+            <tr>
+                <td>Approximate Number Of Guests:</td>
+                <td>
+                   {{NumberGuests}}
+                </td>
+                <td/>
+            </tr>
+            <tr>
+                <td>Average Age Of Guests:</td>
+                <td>
+                    {{AverageAge}}
+                </td>
+                <td/>
+            </tr>
+            
+            <tr>
+                <td>Contact Phone Number:</td>
+                <td>
+                   {{Phone}}
+                </td>
+            </tr>
+            {{CustomFields}}
+			<tr>
+				<td colspan="2">Comments:</td>
+			</tr>
+			<tr>
+				<td colspan="2">{{UserComments}}</td>
+			</tr>
+	</table>
+
+<br><br>
+
+
+If you did not cancel this reservation please Contact Us immediately <br>by clicking reply on this email, or calling us at {{CompanyPhone}}.
+
+<br><br>
+
+</span>
+
+</center>
+</td></tr></table>

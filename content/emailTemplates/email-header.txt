@@ -1,0 +1,13 @@
+<html><body><table border="1" bordercolor="#000099" width="630" align="center" bgcolor="#FFFFFF"><tr><td>
+<table border="0" cellspacing="0" cellpadding="0" width="580" align="center" bgcolor="#ffffff">
+<tr>
+
+<td align="left" valign="top" ><a href="{{CompanyUrl}}" target="_blank"><img src="{{LogoUrl}}" border="0"  width="180" height="90" alt="{{CompanyName}}"></a></td>
+<td align="right" valign="top" ><font style="font-family:Arial, Helvetica, sans-serif; font-size:9px">
+<b></b></font><br />
+</td>
+
+</tr>
+
+</table>
+<span style='FONT-FAMILY: Arial'>

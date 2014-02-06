@@ -1,0 +1,6 @@
+   			<tr>
+				<td colspan="2">{{FieldName}}:</td>
+			</tr>
+			<tr>
+				<td colspan="2">{{FieldValue}}</td>
+			</tr>

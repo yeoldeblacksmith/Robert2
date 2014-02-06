@@ -1,0 +1,48 @@
+﻿H1 { font-size: 16pt; color: #aa0000; line-height: 28px; font-family:Verdana, Arial, Helvetica, Times New Roman }
+    H2 { font-size: 14pt; color: #003300; font-family: Verdana, Arial, Helvetica, Times New Roman }
+	
+	BODY { background-color: #EDEDED; }
+	A:LINK, A:VISITED { text-decoration: none; color: #07519a }
+	A:HOVER, A:ACTIVE { text-decoration: underline; color: #07519a }
+
+body {
+}
+
+.blockCenter
+{
+	margin: auto;
+}
+
+.inlineCenter
+{
+	text-align: center;
+}
+
+.inlineLeft
+{
+	text-align: left;
+}
+
+.inlineRight
+{
+	text-align: right;
+}
+
+input.error, div.error { 
+	-moz-box-shadow: 0px 0px 12px red;
+	-webkit-box-shadow: 0px 0px 12px red;
+	box-shadow: 0px 0px 12px red;
+}
+
+div.waiverSection {
+    -moz-border-radius: 1em;
+    -webkit-border-radius: 1em;
+    border: 1px solid #333;
+    border-radius: 1em;
+    margin-bottom: 10px;
+}
+
+    div.waiverSection h2 {
+        text-align: left;
+        margin: 5px 20px;
+    }

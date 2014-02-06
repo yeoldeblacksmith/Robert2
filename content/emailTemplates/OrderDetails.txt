@@ -1,0 +1,10 @@
+<table border="0" style="border-collapse: collapse; text-align: right; margin: 0 auto">
+	<tr style="vertical-align: top">
+		<th style="border-bottom: 1px solid #aaa; text-align: left">Description</th>
+		<th style="border-bottom: 1px solid #aaa;">Qty</th>
+		<th style="border-bottom: 1px solid #aaa;">Price</th>
+		<th style="border-bottom: 1px solid #aaa;">Ext. Price</th>
+	</tr>
+	{{OrderDetails}}
+</table>
+<br/><br/>

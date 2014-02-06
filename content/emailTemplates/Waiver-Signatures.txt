@@ -1,0 +1,3 @@
+<b>The following individuals have completed online waivers:</b><br/>
+{{Signatures}}
+<br/><br/>

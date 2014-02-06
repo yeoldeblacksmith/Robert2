@@ -1,0 +1,48 @@
+<!-- NewRegistration.txt -->
+<table style="text-align: center; width: 90%; margin: 0 auto">
+	<tr>
+		<td style='FONT-FAMILY: Arial;'>
+
+			<br><br>
+			<p>
+			Unfortunately, by the time we were able to clear your payment, the time you requested ({{StartTime}}) was no longer available.  Please 
+			<a href="{{VantoraUrl}}/registration/editregistration.asp?id={{EventId}}">click here</a> to choose a new time for your event.
+			</p>
+
+			<p>
+			Please review the following information, and contact us if any of it is not accurate:
+			</p>
+
+			<table cellpadding="2" cellspacing="3" border="0" style="margin: 0 auto;">
+				<tr>
+					<td>Name of Event</td>
+					<td>
+						{{EventName}}
+					</td>
+					<td />
+				</tr>
+			
+				<tr>
+					<td>Date:</td>
+					<td>
+						{{Date}}
+					</td>
+					<td/>
+				</tr>
+			</table>
+
+			<br><font size=+1><b>Need To Make A Change??</b></font><br>
+			You can modify this reservation at any time by following this link:<br>
+			<a href="{{VantoraUrl}}/registration/editregistration.asp?id={{EventId}}">Modify My Reservation</a>
+			<br>Then just log in with your email.
+
+			<br><br>
+
+
+			If you did not make this reservation please Contact Us immediately <br>by clicking reply on this email, or calling us at {{CompanyPhone}}.
+
+			<br><br>
+
+		</td>
+	</tr>
+</table>

@@ -1,0 +1,24 @@
+<!-- PaymentFailed.txt -->
+<table align="center" width="90%"><tr><td>
+<center>
+
+<div align="center" style="font-family:Verdana, Arial, Helvetica, sans-serif; font-style:italic; line-height:160%; font-size:18px; color:#CC0000;"><b>The reservation has failed!</b></div>
+
+<br><br>
+
+
+<span style='FONT-FAMILY: Arial;'>
+
+
+We're sorry, but there was a problem withe the payment, and we could not process this reservation. If you would like to try another day or time, please <a href="{{VantoraUrl}}/registration/">click here</a>.
+
+<br/><br/>
+
+If you did not make this reservation please Contact Us immediately <br>by clicking reply on this email, or calling us at {{CompanyPhone}}.
+
+<br><br>
+</div> 
+</span>
+
+</center>
+</td></tr></table>

@@ -1,0 +1,5 @@
+﻿<%
+    const SITESETTING_INDEX_SITEGUID = 0
+    const SITESETTING_INDEX_KEY = 1
+    const SITESETTING_INDEX_VALUE = 2
+%>

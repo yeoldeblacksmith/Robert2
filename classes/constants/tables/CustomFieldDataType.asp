@@ -1,0 +1,4 @@
+﻿<%
+    const   CUSTOMFIELDDATATYPE_INDEX_ID = 0
+    const   CUSTOMFIELDDATATYPE_INDEX_DESC = 1
+%>

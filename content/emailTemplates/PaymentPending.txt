@@ -1,0 +1,56 @@
+<!-- PaymetnPending.txt -->
+<table align="center" width="90%"><tr><td>
+<center>
+
+<div align="center" style="font-family:Verdana, Arial, Helvetica, sans-serif; font-style:italic; line-height:160%; font-size:18px; color:#CC0000;"><b>We are waiting for your payment!</b></div>
+
+<br><br>
+
+
+<span style='FONT-FAMILY: Arial;'>
+
+<p>The event you have booked with us is coming up and we still have not received payment. Please use the link below to submit your payment via PayPal.</p>
+
+Please review the following information, and contact us if any of it is not accurate:
+<br><br>
+
+<table cellpadding="2" cellspacing="3" border="0" style="margin: 0 auto;">
+    <tr>
+        <td>Name of Event</td>
+        <td>
+            {{EventName}}
+        </td>
+        <td />
+    </tr>
+			
+	<tr>
+        <td>Date:</td>
+        <td>
+            {{Date}}
+        </td>
+        <td/>
+    </tr>
+             
+    <tr>
+        <td>Starting Time:</td>
+        <td>
+            {{StartTime}}
+        </td>
+        <td/>
+    </tr>
+</table>
+
+<br/><br/>
+
+<a href="{{VantoraUrl}}/registration/paypalredirect.asp?id={{EventId}}"><img src="{{VantoraUrl}}/content/images/paypal-paynow.gif" alt="Click here to pay with PayPal" border="0"/></a>
+
+<br/><br/>
+
+If you did not make this reservation please Contact Us immediately <br>by clicking reply on this email, or calling us at {{CompanyPhone}}.
+
+<br><br>
+</div> 
+</span>
+
+</center>
+</td></tr></table>
