@@ -554,7 +554,7 @@
         end with
 
         For each itm in Request.Form
-            if left(itm,6) = "Custom" AND Request.form(itm) <> "" AND (Mid(itm,InStr(itm,"_")+1,4) = "Self" OR Mid(itm,InStr(itm,"_")+1,4) = "Gene") Then
+            if left(itm,6) = "Custom" AND (Mid(itm,InStr(itm,"_")+1,4) = "Self" OR Mid(itm,InStr(itm,"_")+1,4) = "Gene") Then
                 SaveWaiverCustomField adultWaiver.WaiverId, Mid(itm,12,((InStr(itm,"_")-1)-11)), Request.form(itm)
             end if
         next
@@ -607,7 +607,7 @@
         end with
 
         For each itm in Request.Form
-            if left(itm,6) = "Custom" AND Request.form(itm) <> "" AND (Mid(itm,InStr(itm,"_")+1,6) = "Minor" & MinorIndex OR Mid(itm,InStr(itm,"_")+1,4) = "Gene") Then
+            if left(itm,6) = "Custom" AND (Mid(itm,InStr(itm,"_")+1,6) = "Minor" & MinorIndex OR Mid(itm,InStr(itm,"_")+1,4) = "Gene") Then
                 SaveWaiverCustomField minorWaiver.WaiverId, Mid(itm,12,((InStr(itm,"_")-1)-11)), Request.form(itm)
             end if
         next
